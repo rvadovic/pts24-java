@@ -18,7 +18,7 @@ public final class GameBoardFactory {
     private static final int NUMBER_OF_RESOURCE_TYPES_4 = 4;
     private static final int DESIRED_RESULT_IN_THROW = 6;
 
-    public GameBoard createGameBoard(final ArrayList<Player> players) {
+    public static GameBoard createGameBoard(final ArrayList<Player> players) {
         ArrayList<CivilisationCard> cards = new ArrayList<>();
         cards.add(new CivilisationCard(List.of(ImmediateEffect.ALL_PLAYERS_TAKE_REWARD),
                 List.of(EndOfGameEffect.FARMER)));
