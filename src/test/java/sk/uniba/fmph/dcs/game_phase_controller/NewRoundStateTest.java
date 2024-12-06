@@ -63,7 +63,9 @@ public class NewRoundStateTest {
             newTurn = true;
         }
     }
-    private final Map<PlayerOrder, InterfaceNewTurn> playerOrderNewRoundMockMap = Map.of(new PlayerOrder(1,1), new NewRoundMock());
+
+    private final Map<PlayerOrder, InterfaceNewTurn> playerOrderNewRoundMockMap = Map.of(new PlayerOrder(1, 1),
+            new NewRoundMock());
 
     @Test
     public void tryToMakeAutomaticActionTest() {

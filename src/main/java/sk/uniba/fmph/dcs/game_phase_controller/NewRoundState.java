@@ -15,7 +15,8 @@ public final class NewRoundState implements InterfaceGamePhaseState {
     private final Collection<InterfaceFigureLocation> places;
     private final Map<PlayerOrder, InterfaceNewTurn> newTurnPlayerBoards;
 
-    public NewRoundState(final Collection<InterfaceFigureLocation> places, final Map<PlayerOrder, InterfaceNewTurn> newTurnPlayerBoards) {
+    public NewRoundState(final Collection<InterfaceFigureLocation> places,
+            final Map<PlayerOrder, InterfaceNewTurn> newTurnPlayerBoards) {
         this.places = places;
         this.newTurnPlayerBoards = newTurnPlayerBoards;
     }

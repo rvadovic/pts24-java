@@ -14,7 +14,9 @@ public final class GameBoardFactory {
     private static final int NUMBER_OF_RESOURCE_TYPES_2 = 2;
     private static final int NUMBER_OF_RESOURCE_TYPES_4 = 4;
     private static final int DESIRED_RESULT_IN_THROW = 6;
-private GameBoardFactory() { }
+
+    private GameBoardFactory() {
+    }
 
     public static GameBoard createGameBoard(final ArrayList<Player> players) {
         ArrayList<CivilisationCard> cards = new ArrayList<>();
