@@ -1,12 +1,9 @@
-package sk.uniba.fmph.dcs.stone_age;
+package sk.uniba.fmph.dcs.game_board;
 
-import sk.uniba.fmph.dcs.game_board.Building;
-import sk.uniba.fmph.dcs.game_board.CivilizationCardDeck;
-import sk.uniba.fmph.dcs.game_board.GameBoard;
-import sk.uniba.fmph.dcs.game_board.Player;
-import sk.uniba.fmph.dcs.game_board.ArbitraryBuilding;
-import sk.uniba.fmph.dcs.game_board.SimpleBuilding;
-import sk.uniba.fmph.dcs.game_board.VariableBuilding;
+import sk.uniba.fmph.dcs.stone_age.CivilisationCard;
+import sk.uniba.fmph.dcs.stone_age.Effect;
+import sk.uniba.fmph.dcs.stone_age.EndOfGameEffect;
+import sk.uniba.fmph.dcs.stone_age.ImmediateEffect;
 
 import java.util.ArrayList;
 import java.util.List;
