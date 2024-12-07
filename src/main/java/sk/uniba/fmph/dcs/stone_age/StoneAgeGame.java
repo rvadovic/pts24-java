@@ -135,8 +135,10 @@ public final class StoneAgeGame implements InterfaceStoneAgeGame {
         Map<String, String> state = new HashMap<>();
         state.put("GameBoard", gameBoard.state());
         state.put("GamePhaseController", gamePhaseController.state());
+        int i = 1;
         for (InterfaceGetState pB : playerBoards) {
-            state.put("Player1", pB.state());
+            state.put("Player" + i, pB.state());
+            i++;
         }
         observable.notify(new JSONObject(state).toString());
     }
